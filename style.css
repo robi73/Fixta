@@ -1,3 +1,9 @@
+
+
+
+
+
+
 body{
     font-family: 'Lato' sans-serif;
     font-family: 'Open Sans' sans-serif;
@@ -16,12 +22,25 @@ body{
     padding: 16px 35px;
 
 }
+.sectoin-titel{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight:700 ;
+
+}
+.sectoin-descp{
+   color: #757575;
+   text-align: center;
+   font-size: 15px;
+}
 
 
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav >ul{
@@ -43,4 +62,79 @@ nav a{
     color:rgba(0, 0, 0, 0.795); 
     font-size:45px;
     font-weight: 800;
+}
+.header{
+ background-color: #fff8f3;
+ background-image: url('./images/header_bg.png');
+ background-repeat: no-repeat;
+ background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .banner-pic{
+    width: 400px;
+
+}
+
+.banner-greting{
+   font-size: 45px;
+   color: #474747;
+   margin-bottom: 0;
+}
+.banner-titel{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* main section */
+main{
+ max-width: 800px;
+ margin:0 auto;
+    
+}
+
+/*About sectoin*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
+  
+}
+
+.about-info-descriptoin{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-descriptoin{
+    padding: 20px 110px;
+
+}
+.skill{
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 4px 35px 0px rgba(0,0,0,0.06);
+  
+}
+.skill-container{
+    display: flex;
+    gap: 15px;
+}
+.skill-descriptoin{
+    color: #757575;
+}
+.resume-container{
+    display: flex;
 }
